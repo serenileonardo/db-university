@@ -1,0 +1,5 @@
+SELECT * FROM students WHERE date_of_birth > '1990-01-01';
+SELECT * FROM courses WHERE cfu > 10;
+SELECT * FROM students where age >= 30;
+SELECT * FROM courses WHERE year = 1 AND degrees = 1;
+SELECT * FROM exams WHERE date = '2020-06-20' AND HOUR(time) > 14;
